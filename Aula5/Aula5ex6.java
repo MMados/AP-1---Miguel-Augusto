@@ -5,10 +5,17 @@ public class Aula5ex6 {
         int num;
         int menor;
         int contador=1;
+        System.out.println("Digite o "+contador+"° número inteiro: "); menor=e.nextInt();
+        contador++;
         while (contador<=10) {
             System.out.println("Digite o "+contador+"° número inteiro: "); num=e.nextInt();
             contador++;
-
+            if (menor > num) {
+                menor=num;
+            }
         }
+        System.out.println("O menor número digitado é: "+menor);
+
+        e.close();
     }
 }

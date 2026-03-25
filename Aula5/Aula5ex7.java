@@ -9,8 +9,8 @@ public class Aula5ex7 {
         int pessoascompesoideal=0;
         while (contador<=10) {
             System.out.printf("====Pessoa %d====\n",contador);
-            System.out.println("Digite sua altura: "); altura=e.nextDouble();
-            System.out.println("Digite seu peso: "); peso=e.nextDouble();
+            System.out.println("Digite sua altura (Utilize virgula): "); altura=e.nextDouble();
+            System.out.println("Digite seu peso (Utilize virgula): "); peso=e.nextDouble();
             imc=peso/(altura*altura);
             if (imc >=18.5 && imc <=24.9) {
                 pessoascompesoideal++;

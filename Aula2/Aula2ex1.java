@@ -1,3 +1,5 @@
+// Miguel Augusto De Oliveira Santos
+
 public class Aula2ex1 {
     public static void main(String[] args) {
         System.out.println("nome: Miguel Santos");

@@ -1,0 +1,52 @@
+// Miguel Augusto De Oliveira Santos
+
+import java.util.Scanner;
+public class Aula4ex2 {
+    public static void main(String [] args) {
+        Scanner e=new Scanner(System.in);
+        System.out.println("Digite um número de 1 a 12: "); int num=e.nextInt();
+        System.out.println("O mês correspondente ao número digitado é: ");
+        switch (num) {
+            case 1:
+                System.out.println("Janeiro!");
+                break;
+            case 2:
+                System.out.println("Fevereiro!");
+                break;
+            case 3:
+                System.out.println("Março!");
+                break;
+            case 4:
+                System.out.println("Abril!");
+                break;
+            case 5:
+                System.out.println("Maio!");
+                break;
+            case 6:
+                System.out.println("Junho!");
+                break;
+            case 7:
+                System.out.println("Julho!");
+                break;
+            case 8:
+                System.out.println("Agosto!");
+                break;
+            case 9:
+                System.out.println("Setembro!");
+                break;
+            case 10:
+                System.out.println("Outubro!");
+                break;
+            case 11:
+                System.out.println("Novembro!");
+                break;
+            case 12:
+                System.out.println("Dezembro!");
+                break;
+            default:
+                System.out.println("O número digitado é inválido!");
+                break;
+        }
+        e.close();
+    }
+}

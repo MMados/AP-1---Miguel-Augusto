@@ -1,3 +1,5 @@
+// Miguel Augusto De Oliveira Santos
+
 import java.util.Scanner;
 public class Aula4ex1 {
     public static void main(String[] args) {
